@@ -2,17 +2,20 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenido a mi página web</title>
 </head>
 <body>
     <marquee> Danna xd </marquee>
     <h1>Hola mundo básico</h1>
-    <h2>Hola mundo básico</h2>
-    <h3>Hola mundo básico</h3>
-    <h4>Hola mundo básico</h4>
-    <h5>Hola mundo básico</h5>
-    <h6>Hola mundo básico</h6>
+    <h2 class="titulo-general">Hola mundo básico</h2>
+    <h3 class="titulo-general">Hola mundo básico</h3>
+    <h4 class="titulo-general">Hola mundo básico</h4>
+    <h5 class="titulo-general">Hola mundo básico</h5>
+    <h6 class="titulo-general">Hola mundo básico</h6>
+    <p id="made-for">Página elaborada por mi</p>
+    <p>Otro parrafo feliz uwu</p>
     <a href="ventas.html">Ir a ventas</a>
     <a href="https://www.google.com">Ir a google</a>
     <p>Hola a mi parrafo <u>escrito en html</u></p>
@@ -50,8 +53,7 @@
         </tbody>
     </table>
 </center>
-    <img src="images/fing.jpeg">
-
+    <img src="images/fing.jpeg" id="fing">
     <form action="/registro" method="post">
         <label for="nombre">Nombre</label>
         <input id="nombre" type="text" name="nombre"/>
@@ -59,5 +61,7 @@
         <input id="apellido" type="text" name="apellido"/>
         <input type="submit">
     </form>
+    <button id="boton-ocultar">Ocultar</button>
+    <script src="/js/main.js"></script>
 </body>
 </html>

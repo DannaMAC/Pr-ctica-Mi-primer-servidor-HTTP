@@ -30,6 +30,12 @@ http.createServer((request, respose)=>{
                 case 'jpeg':
                     respose.writeHead(200,{"Content-Type": "image/jpeg"});
                 break;
+                case 'css':
+                    respose.writeHead(200,{"Content-Type": "text/css"});
+                break;
+                case 'js':
+                    respose.writeHead(200,{"Content-Type": "text/javascript"});
+                break;
             }
             respose.write(data);
             respose.end();
